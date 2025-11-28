@@ -1,0 +1,338 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wilson Tree Cutting — Professional Tree Cutting & Removal (Hermanus)</title>
+  <meta name="description" content="Wilson Tree Cutting — Licensed and insured arborists offering tree removal, pruning, stump grinding and 24/7 emergency service in Hermanus and surrounds. Get a free quote via WhatsApp." />
+  <meta name="keywords" content="tree cutting, arborist, tree removal, stump grinding, pruning, Hermanus, tree service" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">  <!-- Structured data (LocalBusiness) -->  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Wilson Tree Cutting",
+    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=",
+    "@id": "https://your-domain.example.com",
+    "url": "https://your-domain.example.com",
+    "telephone": "+27748242195",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hermanus",
+      "addressCountry": "ZA"
+    },
+    "priceRange": "₩₩",
+    "openingHours": "24/7"
+  }
+  </script>  <style>
+    :root{
+      --forest:#183d2b;      /* primary */
+      --accent:#ff8c00;      /* accent */
+      --muted:#6b6b6b;
+      --bg:#ffffff;
+      --card:#f7f8f6;
+      --success:#25d366;
+      --radius:12px;
+      --container:1100px;
+      --ff: 'Roboto', system-ui, -apple-system, 'Segoe UI', 'Helvetica', 'Arial';
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:var(--ff);color:#222;background:var(--bg);-webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;line-height:1.45;font-size:16px
+    }
+
+    .container{width:90%;max-width:var(--container);margin:0 auto}
+
+    /* Header */
+    header.site-header{background:#fff;position:sticky;top:0;z-index:60;box-shadow:0 6px 18px rgba(15,23,42,0.06)}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:12px;color:var(--forest);font-weight:700;font-size:1.15rem}
+    .brand svg{width:44px;height:44px;border-radius:10px}
+
+    nav.main-nav{display:flex;gap:18px;align-items:center}
+    nav.main-nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px}
+    nav.main-nav a:hover{color:var(--accent);font-weight:700}
+
+    .cta-row{display:flex;gap:10px;align-items:center}
+    .phone-cta{background:var(--accent);color:#fff;padding:10px 14px;border-radius:9px;text-decoration:none;font-weight:700}
+    .wa-btn{display:inline-flex;align-items:center;gap:8px;background:var(--success);color:#fff;padding:9px 12px;border-radius:9px;text-decoration:none;font-weight:700}
+
+    /* Mobile menu button */
+    .menu-toggle{display:none;background:transparent;border:0;padding:8px;border-radius:8px}
+    .menu-toggle svg{width:28px;height:28px}
+
+    /* Hero */
+    .hero{height:520px;display:grid;align-items:center;background-color:#0f3a23;color:#fff;position:relative}
+    .hero .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(0.55)}
+    .hero .hero-content{position:relative;z-index:2;padding:48px 0;text-align:left}
+    .hero h1{font-size:2.25rem;margin:0 0 12px;line-height:1.05}
+    .hero p{margin:0 0 18px;color:#e6f0e8}
+    .hero .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+    /* Trust */
+    .trust{background:var(--forest);color:#fff;padding:12px 0;text-align:center;font-weight:700}
+    .trust .inner{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+
+    /* Services */
+    .services{padding:48px 0}
+    .services h2{color:var(--forest);margin-bottom:18px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+    .card{background:var(--card);padding:20px;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04);transition:transform .25s,box-shadow .25s}
+    .card:hover{transform:translateY(-6px);box-shadow:0 18px 40px rgba(15,23,42,0.08)}
+    .card h3{margin:0 0 8px;color:var(--forest)}
+
+    /* Quote / Form */
+    .quote{padding:48px 0;background:#fbfdfb}
+    .form-wrap{max-width:800px;margin:18px auto;background:#fff;padding:22px;border-radius:12px;box-shadow:0 10px 28px rgba(15,23,42,0.06)}
+    .row{display:flex;gap:12px}
+    .col{flex:1}
+    .full{flex-basis:100%}
+    label{display:block;font-weight:700;margin-bottom:6px}
+    input[type=text],input[type=tel],input[type=email],select,textarea{width:100%;padding:12px;border-radius:8px;border:1px solid #d9d9d9;font-size:1rem}
+    textarea{min-height:120px}
+    .submit{display:flex;gap:12px;margin-top:12px}
+    .submit .btn{flex:1;padding:12px;border-radius:8px;border:0;font-weight:700}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-wa{background:var(--success);color:#fff}
+
+    /* Footer */
+    footer{background:#0f1720;color:#fff;padding:22px 0;text-align:center}
+
+    /* Responsive */
+    @media (max-width:900px){
+      .hero{height:420px}
+      .hero h1{font-size:1.75rem}
+    }
+    @media (max-width:768px){
+      nav.main-nav{display:none}
+      .menu-toggle{display:inline-flex}
+      .cta-row{display:none}
+      header .mobile-actions{display:flex;gap:8px}
+      .hero{text-align:center}
+      .hero .hero-content{padding:22px}
+      .hero h1{font-size:1.6rem}
+      .row{flex-direction:column}
+      .cards{grid-template-columns:1fr}
+    }
+
+    /* Small screens menu panel */
+    .mobile-menu{position:fixed;inset:0;background:rgba(0,0,0,0.45);display:none;z-index:120}
+    .mobile-menu .panel{background:#fff;width:280px;height:100%;padding:20px}
+    .mobile-menu a{display:block;padding:10px 6px;border-radius:8px;color:#111;text-decoration:none}
+
+  </style></head>
+<body>  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- Small logo mark (SVG) -->
+        <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="48" height="48" rx="8" fill="var(--forest)"></rect>
+          <path d="M24 10c0 6-6 8-6 14s6 6 6 14c0-8 6-8 6-14s-6-8-6-14z" fill="#fff" opacity="0.95"></path>
+        </svg>
+        Wilson Tree Cutting
+      </div><nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="#contact">Contact / Quote</a>
+  </nav>
+
+  <div class="cta-row">
+    <a class="phone-cta" href="tel:+27748242195">Call: +27 74 824 2195</a>
+    <a class="wa-btn" href="https://wa.me/27748242195" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+
+  <button class="menu-toggle" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#183d2b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M3 12h18M3 18h18"></path></svg>
+  </button>
+</div>
+
+  </header>  <!-- Mobile menu panel -->  <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+    <div class="panel">
+      <button class="menu-toggle" aria-label="Close menu" style="float:right">Close</button>
+      <nav style="margin-top:20px">
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="#contact">Contact / Quote</a>
+        <a href="tel:+27748242195">Call: +27 74 824 2195</a>
+        <a href="https://wa.me/27748242195">WhatsApp</a>
+      </nav>
+    </div>
+  </div>  <!-- Hero with real unsplash image (lazy-loaded via CSS image link) -->  <section class="hero" aria-label="Hero">
+    <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1501004318641-b39e6451bec6?q=80&w=2400&auto=format&fit=crop&ixlib=rb-4.0.3&s=');"></div>
+    <div class="container hero-content">
+      <h1>Safe & Professional Tree Cutting in Hermanus — 24/7 Emergency</h1>
+      <p>Licensed arborists • Fully insured • Stump grinding • Pruning • Large tree removal</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#contact">Get Free Quote</a>
+        <a class="btn btn-wa" href="https://wa.me/27748242195?text=Hello%2C%20I%20need%20a%20quote" target="_blank" rel="noopener">Message on WhatsApp</a>
+      </div>
+    </div>
+  </section>  <section class="trust">
+    <div class="container inner">
+      <div>✅ Licensed</div>
+      <div>✅ Insured</div>
+      <div>🏆 Arborist Certified</div>
+      <div>⭐ 5-Star Rated</div>
+    </div>
+  </section>  <main>
+    <section class="services container">
+      <h2>Our Core Tree Services</h2>
+      <div class="cards">
+        <article class="card" aria-labelledby="s1">
+          <h3 id="s1">Tree Removal</h3>
+          <p>Safe & efficient removal of hazardous or unwanted trees, including sectional dismantling for confined sites.</p>
+        </article><article class="card" aria-labelledby="s2">
+      <h3 id="s2">Tree Trimming & Pruning</h3>
+      <p>Professional pruning to promote health, structure and improved light to your property.</p>
+    </article>
+
+    <article class="card" aria-labelledby="s3">
+      <h3 id="s3">Stump Grinding</h3>
+      <p>Complete removal of stumps and grinding to reclaim your yard space — fast & tidy cleanup.</p>
+    </article>
+  </div>
+</section>
+
+<section id="contact" class="quote">
+  <div class="container">
+    <h2>Get Your Free, No-Obligation Estimate</h2>
+    <p>Complete the form or send us details directly via WhatsApp for the fastest response.</p>
+
+    <div class="form-wrap" role="form" aria-labelledby="contact-heading">
+      <form id="quoteForm">
+        <div class="row">
+          <div class="col">
+            <label for="name">Full name</label>
+            <input id="name" type="text" name="name" required placeholder="Your full name" />
+          </div>
+
+          <div class="col">
+            <label for="phone">Phone (WhatsApp)</label>
+            <input id="phone" type="tel" name="phone" required placeholder="+27 74 824 2195" />
+          </div>
+        </div>
+
+        <div class="row" style="margin-top:12px">
+          <div class="col">
+            <label for="email">Email (optional)</label>
+            <input id="email" type="email" name="email" placeholder="email@example.com" />
+          </div>
+
+          <div class="col">
+            <label for="address">Service address (city/suburb)</label>
+            <input id="address" type="text" name="address" required placeholder="e.g., Hermanus, ZA" />
+          </div>
+        </div>
+
+        <div class="row full" style="margin-top:12px">
+          <div class="col full">
+            <label for="service">Type of service</label>
+            <select id="service" name="service" required>
+              <option value="">-- Select service --</option>
+              <option>Tree Removal</option>
+              <option>Trimming / Pruning</option>
+              <option>Stump Grinding</option>
+              <option>Emergency Service</option>
+              <option>Other / Consultation</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row full" style="margin-top:12px">
+          <div class="col full">
+            <label for="details">Describe the job (size, location, urgency)</label>
+            <textarea id="details" name="details" required placeholder="Tall tree near power lines, urgent, etc."></textarea>
+          </div>
+        </div>
+
+        <div class="submit">
+          <button type="button" class="btn btn-primary" onclick="openWhatsAppWithForm()">Send via WhatsApp</button>
+          <button type="submit" class="btn btn-wa">Submit (email fallback)</button>
+        </div>
+
+        <p style="margin-top:10px;color:var(--muted);font-size:0.95rem">Or call us now: <a href="tel:+27748242195">+27 74 824 2195</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+  </main>  <footer>
+    <div class="container">
+      <p>© 2025 Wilson Tree Cutting. All Rights Reserved — Serving Hermanus & surrounds. <a href="#" style="color:var(--accent);text-decoration:none">Privacy</a></p>
+    </div>
+  </footer>  <script>
+    // Mobile menu toggle (accessible)
+    (function(){
+      const openBtns = document.querySelectorAll('.menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      openBtns.forEach(btn=>{
+        btn.addEventListener('click', (e)=>{
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          if(mobileMenu.style.display === 'block'){
+            mobileMenu.style.display = 'none';
+            document.body.style.overflow = '';
+            btn.setAttribute('aria-expanded', 'false');
+          } else {
+            mobileMenu.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        })
+      })
+
+      // Close when clicking outside panel
+      mobileMenu.addEventListener('click', (e)=>{
+        if(e.target === mobileMenu){
+          mobileMenu.style.display = 'none';
+          document.body.style.overflow = '';
+        }
+      })
+
+      // Simple focus trap for accessibility (basic)
+      mobileMenu.addEventListener('keydown', (e)=>{
+        if(e.key === 'Escape'){
+          mobileMenu.style.display = 'none';
+          document.body.style.overflow = '';
+        }
+      })
+    })();
+
+    // WhatsApp message builder for the form
+    function openWhatsAppWithForm(){
+      const form = document.getElementById('quoteForm');
+      if(!form.reportValidity()) return;
+
+      const name = encodeURIComponent(document.getElementById('name').value);
+      const phone = encodeURIComponent(document.getElementById('phone').value);
+      const email = encodeURIComponent(document.getElementById('email').value || 'N/A');
+      const address = encodeURIComponent(document.getElementById('address').value);
+      const service = encodeURIComponent(document.getElementById('service').value);
+      const details = encodeURIComponent(document.getElementById('details').value);
+
+      const recipient = '27748242195';
+      const message = *NEW QUOTE REQUEST - Wilson Tree Cutting*%0A%0AName: ${name}%0APhone: ${phone}%0AEmail: ${email}%0AAddress: ${address}%0AService: ${service}%0ADetails: ${details}%0A%0APlease provide a free, no-obligation estimate.;
+
+      const url = https://wa.me/${recipient}?text=${message};
+      window.open(url, '_blank');
+    }
+
+    // Simple email fallback on form submit
+    document.getElementById('quoteForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const name = encodeURIComponent(document.getElementById('name').value);
+      const phone = encodeURIComponent(document.getElementById('phone').value);
+      const email = encodeURIComponent(document.getElementById('email').value || 'N/A');
+      const address = encodeURIComponent(document.getElementById('address').value);
+      const service = encodeURIComponent(document.getElementById('service').value);
+      const details = encodeURIComponent(document.getElementById('details').value);
+
+      const subject = encodeURIComponent('New Quote Request - Wilson Tree Cutting');
+      const body = Name: ${name}%0APhone: ${phone}%0AEmail: ${email}%0AAddress: ${address}%0AService: ${service}%0ADetails: ${details};
+
+      // Replace 'you@yourbusiness.com' with real business email before publishing
+      window.location.href = mailto:you@yourbusiness.com?subject=${subject}&body=${body};
+    })
+  </script></body>
+</html>
